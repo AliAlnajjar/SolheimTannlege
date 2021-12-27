@@ -1,0 +1,17 @@
+.container{
+    margin-top: 4rem;
+    width: 100%;
+    background-color: #E9F8F4 ;
+     border-radius: 20px;
+     display: flex;
+     flex-flow: column;
+     justify-content: center;
+     align-items: center;
+}
+.container ul {
+    font-size: 1.1rem;
+    list-style: none;
+    display: flex;
+    flex-flow: row;
+    gap:4rem
+}

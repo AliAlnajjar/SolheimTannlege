@@ -5,7 +5,7 @@ export default function Location() {
       width='90%'
       height='450'
       // style='border:0;'
-      allowfullscreen=''
+      allowFullScreen=''
       loading='lazy'
     ></iframe>
   );

@@ -17,16 +17,28 @@
   list-style: none;
 }
 
-.logo {
+.logobar {
   padding: 1rem 4rem 0 4rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-.logo ul {
+.logobar .logo {
   align-items: center;
 }
+.logobar .logo h1 {
+  padding: 0 1rem;
+  font-family: 'Arima Madurai';
+}
+
 .logo ul li {
+  padding: 1rem;
+}
+.language {
+  align-items: center;
+  display: none;
+}
+.language li {
   padding: 0 0.5rem;
 }
 
@@ -50,11 +62,34 @@
   align-items: center;
 }
 .main p {
-  font-size: 0.8rem;
-  line-height: 1.2rem;
+  /* line-height: 1.2rem; */
 }
 
 .footer {
   padding: 2rem 0;
   border-top: 1px solid #eaeaea;
+}
+
+/*===============================Mobiles ===============================*/
+@media only screen and (max-width: 800px) {
+  /*=============Logobar===================*/
+  .logobar {
+    padding: 0 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .logobar .language {
+    display: none;
+  }
+  .logobar .logo h1 {
+    padding: 0 0.5rem;
+  }
+  .logobar .logo img {
+    width: 24px;
+  }
+  /*=============NAV===================*/
+  .nav {
+    display: none;
+  }
 }

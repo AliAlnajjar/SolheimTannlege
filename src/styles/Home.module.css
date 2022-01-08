@@ -5,7 +5,6 @@
 .images {
   display: grid;
   grid-template-columns: repeat(24, 1fr);
-  border: 2px red solid;
   width: calc(3 * 50vw * 0.45);
 }
 .img1 {
@@ -25,11 +24,6 @@
   width: 36vw;
   margin-left: -8.2vw;
 }
-.text {
-  font-size: 0.8rem;
-  line-height: 1.6rem;
-  border: 1px green solid;
-}
 
 @media only screen and (max-width: 800px) {
   .bkg {
@@ -44,7 +38,6 @@
     clip-path: polygon(20% 0%, 85% 0%, 70% 100%, 5% 100%);
     width: 36vw;
   }
-
   .img2 {
     grid-area: 1/9/ 1/22;
     clip-path: polygon(20% 0%, 85% 0%, 70% 100%, 5% 100%);

@@ -6,10 +6,10 @@ export default function BestilTime() {
   return (
     <>
       <Grid container spacing={2}>
-        <Grid item sm={12} md={5} lg={6}>
+        <Grid item xs={12} md={6}>
           <ContactChannels />
         </Grid>
-        <Grid item sm={12} md={7} lg={6}>
+        <Grid item xs={12} md={6}>
           <ContactForm />
         </Grid>
       </Grid>

@@ -1,13 +1,13 @@
 .container {
-  margin-top: 4rem;
-  width: 100%;
-  background-color: #e9f8f4;
+  width: 90%;
+  /* background-color: #e9f8f4; */
   border-radius: 20px;
-  border: 1px solid #007272;
+  /* border: 1px solid #007272; */
   display: flex;
   flex-flow: column;
   justify-content: center;
   align-items: center;
+  /* margin-bottom: 4rem; */
 }
 .container ul {
   font-size: 1.2rem;

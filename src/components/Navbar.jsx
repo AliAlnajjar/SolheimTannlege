@@ -1,23 +1,35 @@
 import styles from '../styles/Layout.module.css';
 import Link from 'next/link';
 
-import Button from './Button';
+import CallButton from './CallButton';
 export default function Header() {
   return (
     <header className={styles.header}>
       <div className={styles.logobar}>
         <ul className={styles.logo}>
           <li>
-            <img src='/logo.svg' height={48} width={48} />
+            <Link href='/'>
+              <a>
+                <img src='/logo.svg' height={48} width={48} />
+              </a>
+            </Link>
           </li>
           <li>
-            <h1>Solheim tannklinikk</h1>
+            <Link href='/'>
+              <a>
+                <h1>Solheim tannklinikk</h1>
+              </a>
+            </Link>
           </li>
         </ul>
 
         <ul className={styles.language}>
           <li>
-            <Button />
+            <Link href='tel:4797326724'>
+              <a>
+                <CallButton />
+              </a>
+            </Link>
           </li>
         </ul>
       </div>
@@ -30,18 +42,18 @@ export default function Header() {
             </Link>
           </li>
           <li>
-            <Link href='/priser'>
-              <a> Priser</a>
-            </Link>
-          </li>
-          <li>
             <Link href='/tjenester'>
               <a> Tjenester</a>
             </Link>
           </li>
           <li>
-            <Link href='/kontakt-oss'>
-              <a> Kontakt oss</a>
+            <Link href='/priser'>
+              <a> Priser</a>
+            </Link>
+          </li>
+          <li>
+            <Link href='/finn-oss'>
+              <a> Finn oss</a>
             </Link>
           </li>
         </ul>

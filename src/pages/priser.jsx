@@ -4,7 +4,7 @@ import styles from '../styles/priser.module.css';
 export default function Priser() {
   return (
     <>
-      <h1>Priser </h1>
+      <h1>Våre Priser </h1>
       <div className={styles.priser}>
         {priceList.map((Entry) => (
           <PriceEntry entry={Entry} key={Entry.id}></PriceEntry>

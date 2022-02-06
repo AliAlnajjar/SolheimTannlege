@@ -5,28 +5,29 @@ import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import SvgIcon from '@mui/material/SvgIcon';
 import Link from 'next/link';
 import Image from 'next/image';
+import { orange } from '@mui/material/colors';
 
 export default function ContactChannels() {
   return (
     <div className={styles.container}>
       <h1> Akutt?</h1>
       <div className={styles.grid}>
-        <p> Ring oss: 97 32 67 24</p>
+        <p> Ring oss: &nbsp;&nbsp;97 32 67 24</p>
         <Link href='tel:4797326724'>
           <a>
-            <PhoneIcon sx={{ fontSize: 50 }} />
+            <PhoneIcon sx={{ fontSize: '3.2rem', color: '#007272' }} />
           </a>
         </Link>
         <p> Chat med oss på Whatsapp:</p>
         <Link href='https://wa.me/4797326724'>
           <a target='_blank'>
-            <WhatsAppIcon sx={{ fontSize: 50, color: '#075E54' }} />
+            <WhatsAppIcon sx={{ fontSize: '3.2rem', color: '#075E54' }} />
           </a>
         </Link>
         <p> Chat med oss på Messenger:</p>
         <Link href='http://m.me/Solheim.Tannlegevakt'>
           <a target='_blank'>
-            <MessengerIcon />
+            <MessengerIcon sx={{ fontSize: '3rem' }} />
           </a>
         </Link>
       </div>
@@ -54,8 +55,8 @@ function MessengerIcon() {
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      width='50px'
-      height='50px'
+      width='3rem'
+      height='3rem'
       viewBox='48.61 50.201 402.77399999999994 402.77399999999994'
     >
       <linearGradient id='a' x1='50%' x2='50%' y1='0%' y2='100.001%'>
@@ -73,16 +74,5 @@ function MessengerIcon() {
         />
       </g>
     </svg>
-  );
-}
-
-function WhatsappIcon() {
-  return (
-    <img
-      src='/WhatsappIcon.svg'
-      height={96}
-      width={96}
-      // className={styles.image}
-    />
   );
 }

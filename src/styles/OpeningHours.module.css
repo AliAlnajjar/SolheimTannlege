@@ -3,12 +3,14 @@
   width: 100%;
   background-color: #e9f8f4;
   border-radius: 20px;
+  border: 1px solid #007272;
   display: flex;
   flex-flow: column;
   justify-content: center;
   align-items: center;
 }
 .container ul {
+  font-size: 1.2rem;
   list-style: none;
   display: flex;
   flex-flow: row;

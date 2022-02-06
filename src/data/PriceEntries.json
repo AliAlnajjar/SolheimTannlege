@@ -1,0 +1,108 @@
+[
+    {
+      "title": "Undersøkelse",
+      "list": [
+          {
+              "title": "Undersøkelse",
+              "price": "1300.-",
+              "desc":"Undersøkelse hos tannlege eller tannpleier med 2-4 røntgenbilder, puss og rens (Inkl. hygienetillegg)"
+          }
+      ]
+    },
+
+
+    {
+        "title": "Røntgen",
+        "list": [
+            {
+                "title": "Røntgen",
+                "price": "120,-",
+                "desc":"Digitalt"
+            },
+            {
+                "title": "Panorama røntgen OPG",
+                "price": "550,-",
+                "desc":"Digitalt"
+            }
+        ]
+    },
+    {
+        "title": "Bedøvelse",
+        "list": [
+            {
+                "title": "Lokalbedøvelse",
+                "price": "200,-",
+                "desc":""
+            }
+        ]
+    },
+
+
+
+
+      {
+        "title": "Fyllingsterapi",
+        "list": [
+            {
+                "title": "Tannfarget fylling, 1 flate",
+                "price": "900,-",
+                "desc":""
+            },
+            {
+                "title": "Tannfarget fylling, 2 flater",
+                "price": "1400,-",
+                "desc":""
+            },
+            {
+                "title": "Tannfarget fylling, 3 flater",
+                "price": "1500,-",
+                "desc":""
+            },
+            {
+                "title": "Tannfarget fylling, 4 flater",
+                "price": "1700,-",
+                "desc":""
+            },
+            {
+                "title": "Tannfarget kroneoppbygging med fyllingsmateriale",
+                "price": "1900,-",
+                "desc":""
+            }
+        ]
+      },
+      {
+        "title": "Rotfylling",
+        "list": [
+            {
+                "title": "Rotfylling av fortann/hjørnetann",
+                "price": "3600,-",
+                "desc":"Prisen inkluderer nødvendig røntgen og bedøvelse"
+            },
+            {
+                "title": "Rotfylling av liten jeksel",
+                "price": "4000,-",
+                "desc":"Prisen inkluderer nødvendig røntgen og bedøvelse"
+            },
+            {
+                "title": "Rotfylling av stor jeksel",
+                "price": "5500,-",
+                "desc":"Prisen inkluderer nødvendig røntgen og bedøvelse"
+            }
+        ]
+    },
+    {
+        "title": "Krone",
+        "list": [
+            {
+                "title": "Helkrone teknikerfremstilt",
+                "price": "5800,- til 6800,-",
+                "desc":"Prisen inkluderer teknikerutgifter"
+            }
+        ]
+    }
+
+
+
+
+
+]

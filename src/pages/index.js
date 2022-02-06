@@ -12,11 +12,6 @@ export default function Home() {
 
         <div div className={styles.text}>
           <h1>Bestill time </h1>
-          <p>
-            Outstanding dental services provided by a top-flight dentist in an
-            excellent facility with state of the art equipment, friendly,
-            welcoming and capable staff who are all truly
-          </p>
         </div>
       </div>
     </>

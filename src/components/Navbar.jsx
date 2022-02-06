@@ -1,5 +1,7 @@
 import styles from '../styles/Layout.module.css';
-import Image from 'next/image';
+import Link from 'next/link';
+
+import Button from './Button';
 export default function Header() {
   return (
     <header className={styles.header}>
@@ -15,24 +17,33 @@ export default function Header() {
 
         <ul className={styles.language}>
           <li>
-            <Image src='/no.svg' height={20} width={30} />
-          </li>
-          <li>
-            <Image src='/Eng.svg' height={30} width={30} />
-          </li>
-          <li>
-            <Image src='/Ar.svg' height={30} width={30} />
+            <Button />
           </li>
         </ul>
       </div>
 
       <nav className={styles.nav}>
         <ul>
-          <li> Bestil time</li>
-          <li> priser</li>
-          <li> Tjenester</li>
-          <li> åpningstider</li>
-          <li> finn oss</li>
+          <li>
+            <Link href='/bestil-time'>
+              <a> Bestil time</a>
+            </Link>
+          </li>
+          <li>
+            <Link href='/priser'>
+              <a> Priser</a>
+            </Link>
+          </li>
+          <li>
+            <Link href='/tjenester'>
+              <a> Tjenester</a>
+            </Link>
+          </li>
+          <li>
+            <Link href='/kontakt-oss'>
+              <a> Kontakt oss</a>
+            </Link>
+          </li>
         </ul>
       </nav>
     </header>

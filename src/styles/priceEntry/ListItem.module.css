@@ -1,0 +1,25 @@
+.item {
+  font-size: 1rem;
+  display: flex;
+  flex-direction: row;
+  gap: 8rem;
+  justify-content: space-between;
+  width: 100%;
+}
+.text {
+  padding: 1rem 0 0 1rem;
+}
+.title {
+  font-size: 1.2rem;
+}
+
+.desc {
+  color: gray;
+  max-width: 80%;
+}
+
+.price {
+  padding: 1rem 0 0 1rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+}

@@ -59,10 +59,10 @@ function MessengerIcon() {
       viewBox='48.61 50.201 402.77399999999994 402.77399999999994'
     >
       <linearGradient id='a' x1='50%' x2='50%' y1='0%' y2='100.001%'>
-        <stop offset='0' stop-color='#00b2ff' />
-        <stop offset='1' stop-color='#006aff' />
+        <stop offset='0' stopColor='#00b2ff' />
+        <stop offset='1' stopColor='#006aff' />
       </linearGradient>
-      <g fill='none' fill-rule='evenodd'>
+      <g fill='none' fillRule='evenodd'>
         <path
           d='M250 50.201c-112.676 0-200 82.452-200 193.81 0 58.25 23.903 108.582 62.817 143.356 3.26 2.935 5.231 6.995 5.392 11.377l1.087 35.537c.362 11.337 12.072 18.694 22.455 14.151l39.678-17.487a15.974 15.974 0 0 1 10.664-.804c18.229 5.025 37.666 7.678 57.907 7.678 112.676 0 200-82.452 200-193.809S362.676 50.201 250 50.201z'
           fill='url(#a)'

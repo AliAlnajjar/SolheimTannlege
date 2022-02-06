@@ -6,7 +6,7 @@ export default function PriceEntry({ entry }) {
     <div className={styles.entry}>
       <Header title={entry.title}></Header>
       {entry.list.map((item) => (
-        <ListItem item={item}></ListItem>
+        <ListItem list={item}></ListItem>
       ))}
     </div>
   );

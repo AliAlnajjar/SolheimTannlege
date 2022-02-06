@@ -7,7 +7,7 @@ export default function Footer() {
     <footer className={styles.footer}>
       <Grid container spacing={1} justifyContent='center' alignItems='start'>
         <Grid item xs={12} md={5}>
-          <h2>Solheim tannklinikk</h2>
+          <h1>Solheim tannklinikk</h1>
         </Grid>
         <Grid item xs={12} md={4}>
           <h4>Åpningstider:</h4>

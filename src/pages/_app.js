@@ -29,7 +29,7 @@ const theme = createTheme({
         // Name of the slot
         root: {
           // Some CSS
-          fontSize: '1rem',
+          fontSize: '1.3rem',
           height: '3.8rem',
           borderRadius: '1.5rem',
         },
@@ -40,6 +40,19 @@ const theme = createTheme({
       defaultProps: {
         // The props to change the default for.
         disableRipple: true, // No more ripple!
+      },
+    },
+    MuiOutlinedInput: {
+      styleOverrides: {
+        // Name of the slot
+        root: {
+          // Some CSS
+          fontSize: '1.2rem',
+          // height: '3.8rem',
+          borderRadius: '1.2rem',
+          backgroundColor: '#f7fcfa',
+          color: '#033049',
+        },
       },
     },
   },

@@ -80,6 +80,8 @@
   font-size: 1.2rem;
   font-weight: 600;
   margin: auto;
+  background-color: #f7fcfa;
+  color: #033049;
   /* background-image: url(/logo.svg);
   background-repeat: no-repeat;
   background-position: center; */
@@ -88,9 +90,14 @@
   margin: 0;
   padding: 1rem 0;
 }
-.footer p {
+.footer h4 {
   font-size: 1.3rem;
+  line-height: 1rem;
+}
+.footer p {
+  font-size: 1.2rem;
   font-weight: 400;
+  line-height: 1rem;
 }
 .red {
   color: #b3140f;

@@ -30,7 +30,7 @@ const theme = createTheme({
         root: {
           // Some CSS
           fontSize: '1rem',
-          height: '3rem',
+          height: '3.8rem',
           borderRadius: '1.5rem',
         },
       },

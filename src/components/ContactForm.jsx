@@ -19,7 +19,7 @@ export default function ContactForm() {
         minRows={4}
       />
 
-      <Button variant='contained' size='large' endIcon={<SendIcon />}>
+      <Button variant='contained' endIcon={<SendIcon />}>
         Send inn
       </Button>
     </div>

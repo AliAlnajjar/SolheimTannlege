@@ -6,8 +6,8 @@ export default function Priser() {
     <>
       <h1>Priser </h1>
       <div className={styles.priser}>
-        {priceList.map((entry) => (
-          <PriceEntry entry={entry}></PriceEntry>
+        {priceList.map((Entry) => (
+          <PriceEntry entry={Entry}></PriceEntry>
         ))}
       </div>
     </>

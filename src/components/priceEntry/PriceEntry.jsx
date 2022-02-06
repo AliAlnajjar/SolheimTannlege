@@ -3,7 +3,7 @@ import Header from './Header';
 import ListItem from './ListItem';
 export default function PriceEntry({ entry }) {
   return (
-    <div className={styles.entry}>
+    <div className={styles.entry} key={entry}>
       <Header title={entry.title}></Header>
       {entry.list.map((item) => (
         <ListItem list={item}></ListItem>

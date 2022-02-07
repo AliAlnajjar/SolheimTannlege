@@ -136,7 +136,99 @@
                 "desc":"Prisen inkluderer teknikerutgifter"
             }
         ]
+    },
+    {
+        "id":7,
+
+        "title": "Bro",
+        "list": [
+            {
+                "id":1,
+
+                "title": "Bro per ledd/tann",
+                "price": "5800,- til 6800,-",
+                "desc":"Prisen inkluderer teknikerutgifter"
+            }
+        ]
+    },
+    {
+        "id":8,
+
+        "title": "Tannproteser",
+        "list": [
+            {
+                "id":1,
+
+                "title": "Helprotese 1 kjeve",
+                "price": "13000,-",
+                "desc":"Prisen inkluderer teknikerutgifter"
+            },
+            {
+                "id":2,
+
+                "title": "Delprotese 1 kjeve",
+                "price": "12000,-",
+                "desc":"Prisen inkluderer teknikerutgifter"
+            },
+            {
+                "id":3,
+
+                "title": "Midlertidig protese",
+                "price": "4500,-",
+                "desc":"Prisen inkluderer teknikerutgifter"
+            }
+        ]
+    },
+    {
+        "id":9,
+
+        "title": "Tannimplantater",
+        "list": [
+            {
+                "id":1,
+
+                "title": "1 implantat med krone",
+                "price": "27000,-",
+                "desc":"Prisen inkluderer teknikerutgifter"
+            },
+            {
+                "id":2,
+
+                "title": "Påfølgende implantat i samme seanse",
+                "price": "22000,-",
+                "desc":"Prisen inkluderer teknikerutgifter"
+            }
+        ]
+    },
+    {
+        "id":10,
+
+        "title": "Tanntrekking/kirurgi",
+        "list": [
+            {
+                "id":1,
+
+                "title": "Enkel tanntrekking",
+                "price": "1200,-",
+                "desc":"Prisen inkluderer teknikerutgifter"
+            },
+            {
+                "id":2,
+
+                "title": "Avansert tanntrekking",
+                "price": "1700,-",
+                "desc":"Prisen inkluderer teknikerutgifter"
+            },
+            {
+                "id":3,
+
+                "title": "Kirurgisk fjerning av dyptliggende rot/delvis frembrutt tann",
+                "price": "2300,-",
+                "desc":""
+            }
+        ]
     }
+
 
 
 

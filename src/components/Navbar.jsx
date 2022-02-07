@@ -1,7 +1,9 @@
 import styles from '../styles/Layout.module.css';
 import Link from 'next/link';
+import MenuIcon from '@mui/icons-material/Menu';
 
 import CallButton from './CallButton';
+import { style } from '@mui/system';
 export default function Header() {
   return (
     <header className={styles.header}>
@@ -23,13 +25,19 @@ export default function Header() {
           </li>
         </ul>
 
-        <ul className={styles.language}>
+        <ul className={styles.actionBtn}>
           <li>
             <Link href='tel:4797326724'>
               <a>
                 <CallButton />
               </a>
             </Link>
+          </li>
+        </ul>
+
+        <ul className={styles.mobileNav}>
+          <li>
+            <MenuIcon sx={{ fontSize: '3rem' }} />
           </li>
         </ul>
       </div>

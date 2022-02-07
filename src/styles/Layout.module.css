@@ -34,11 +34,10 @@
 .logo ul li {
   padding: 1rem;
 }
-.language {
+.actionBtn {
   align-items: center;
-  display: none;
 }
-.language li {
+.actionBtn li {
   padding: 0 0.5rem;
 }
 
@@ -60,6 +59,11 @@
 .nav ul li:hover {
   border-bottom: 2px solid #007272;
   background-color: #e9f8f4;
+}
+
+.logobar .mobileNav {
+  display: none;
+  padding: 1rem;
 }
 
 .main {
@@ -111,8 +115,11 @@
     flex-direction: row;
     justify-content: space-between;
   }
-  .logobar .language {
+  .logobar .actionBtn {
     display: none;
+  }
+  .logobar .mobileNav {
+    display: inline-block;
   }
   .logobar .logo h1 {
     padding: 0 0.5rem;

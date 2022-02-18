@@ -25,6 +25,36 @@ export default function Header() {
           </li>
         </ul>
 
+        {/* <ul className={styles.mobileNav}>
+          <li>
+            <MenuIcon sx={{ fontSize: '3rem' }} />
+          </li>
+        </ul> */}
+        <nav className={styles.nav}>
+          <ul>
+            <li>
+              <Link href="#bestil-time">
+                <a> Bestil time</a>
+              </Link>
+            </li>
+            {/* <li>
+            <Link href="#tjenester">
+              <a> Tjenester</a>
+            </Link>
+          </li> */}
+            <li>
+              <Link href="#priser">
+                <a> Priser</a>
+              </Link>
+            </li>
+            <li>
+              <Link href="#finn-oss">
+                <a> Finn oss</a>
+              </Link>
+            </li>
+          </ul>
+        </nav>
+
         <ul className={styles.actionBtn}>
           <li>
             <Link href="tel:4797326724">
@@ -34,38 +64,7 @@ export default function Header() {
             </Link>
           </li>
         </ul>
-
-        {/* <ul className={styles.mobileNav}>
-          <li>
-            <MenuIcon sx={{ fontSize: '3rem' }} />
-          </li>
-        </ul> */}
       </div>
-
-      <nav className={styles.nav}>
-        <ul>
-          <li>
-            <Link href="#bestil-time">
-              <a> Bestil time</a>
-            </Link>
-          </li>
-          {/* <li>
-            <Link href="#tjenester">
-              <a> Tjenester</a>
-            </Link>
-          </li> */}
-          <li>
-            <Link href="#priser">
-              <a> Priser</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="#finn-oss">
-              <a> Finn oss</a>
-            </Link>
-          </li>
-        </ul>
-      </nav>
     </header>
   );
 }

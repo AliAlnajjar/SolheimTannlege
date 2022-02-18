@@ -1,18 +1,12 @@
 import styles from "../styles/Home.module.css";
-// import Location from '../components/Location';
-import CallButton from "../components/CallButton";
 import Link from "next/Link";
 import ContactForm from "../components/ContactForm";
 import ContactChannels from "../components/ContactChannels";
 import Grid from "@mui/material/Grid";
-
 import PriceEntry from "../components/priceEntry/PriceEntry";
 import priceList from "../data/PriceEntries.json";
 import Priserstyles from "../styles/priser.module.css";
-
 import Location from "../components/Location";
-import OpeningHours from "../components/OpeningHours";
-
 export default function Home() {
   return (
     <>

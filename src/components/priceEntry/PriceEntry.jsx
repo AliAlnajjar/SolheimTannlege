@@ -1,6 +1,6 @@
-import styles from '../../styles/priceEntry/PriceEntry.module.css';
-import Header from './Header';
-import ListItem from './ListItem';
+import styles from "./PriceEntry.module.css";
+import Header from "./Header";
+import ListItem from "./ListItem";
 export default function PriceEntry({ entry }) {
   return (
     <div className={styles.entry}>

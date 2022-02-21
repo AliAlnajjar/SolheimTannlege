@@ -1,5 +1,4 @@
 .container {
-  width: 90%;
   margin: auto;
   font-size: 1.2rem;
   font-weight: 500;
@@ -7,9 +6,9 @@
 .container h1 {
   font-size: 2rem;
 }
-.grid {
+/* .grid {
   display: grid;
   grid-template-columns: max-content auto;
   gap: 1rem;
   padding-left: 1rem;
-}
+} */

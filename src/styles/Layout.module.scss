@@ -2,108 +2,103 @@
   padding: 0;
   font-family: Montserrat;
 }
-
 .header,
 .footer {
+  padding: 0;
   margin: 0;
 }
 .header {
   border-bottom: 1px solid #eaeaea;
-}
-.header ul {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  list-style: none;
+  padding: 0.5rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: white;
+  ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+  }
 }
 
 .logobar {
-  padding: 1rem 4rem 0 4rem;
+  padding: 0rem 4rem 0 4rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-}
-.logobar .logo {
-  align-items: center;
-}
-.logobar .logo h1 {
-  padding: 0 1rem;
-  font-family: "Arima Madurai";
-}
-
-.logo ul li {
-  padding: 1rem;
+  .logo {
+    align-items: center;
+    h1 {
+      padding: 0 1rem;
+      font-family: "Arima Madurai";
+      margin: 0;
+    }
+    ul li {
+      padding: 1rem;
+    }
+  }
 }
 .actionBtn {
   align-items: center;
-}
-.actionBtn li {
-  padding: 0 0.5rem;
+  li {
+    padding: 0 0.5rem;
+  }
 }
 
 .nav ul {
   justify-content: center;
-}
-.nav ul li {
-  padding: 0;
-  border-bottom: 2px solid transparent;
-  font-size: 1.3rem;
-  font-weight: 400;
-}
-.nav ul li a {
-  display: inline-block;
-  padding: 1rem 2rem;
-  height: 100%;
-  width: 100%;
-}
-.nav ul li:hover {
-  border-bottom: 2px solid #007272;
-  background-color: #e9f8f4;
-}
-
-.logobar .mobileNav {
-  display: none;
-  padding: 1rem;
+  li {
+    padding: 0;
+    border-bottom: 2px solid transparent;
+    font-size: 1rem;
+    font-weight: 400;
+    a {
+      display: inline-block;
+      padding: 1rem;
+      height: 100%;
+      width: 100%;
+    }
+    &:hover {
+      // border-bottom: 2px solid #007272;
+      // background-color: #e9f8f4;
+      font-weight: 500;
+    }
+  }
 }
 
 .main {
-  min-height: 100vh;
-  padding: 2rem;
+  padding: 1rem 3rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 6rem;
-}
-.main p {
-  /* line-height: 1.2rem; */
+  align-items: flex-start;
+  gap: 10rem;
 }
 
 .footer {
-  padding: 1.5rem 0;
   border-top: 1px solid #eaeaea;
-  padding: 1rem 4rem;
+  padding: 1rem 2rem;
   font-size: 1.2rem;
   font-weight: 600;
-  margin: 8rem auto auto auto;
   background-color: #f7fcfa;
   color: #033049;
   /* background-image: url(/logo.svg);
   background-repeat: no-repeat;
   background-position: center; */
-}
-.footer h1 {
-  margin: 0;
-  padding: 1rem 0;
-}
-.footer h4 {
-  font-size: 1.3rem;
-  line-height: 1rem;
-}
-.footer p {
-  font-size: 1.2rem;
-  font-weight: 400;
-  line-height: 1rem;
+  h1 {
+    margin: 0;
+    padding: 1rem 0;
+  }
+  h4 {
+    font-size: 1.3rem;
+    line-height: 1rem;
+  }
+  p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1rem;
+  }
 }
 /*===============================Mobiles ===============================*/
 @media only screen and (max-width: 800px) {
@@ -131,7 +126,7 @@
     display: none;
   }
 }
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1250px) {
   .nav {
     display: none;
   }

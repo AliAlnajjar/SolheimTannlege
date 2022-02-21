@@ -1,4 +1,4 @@
-import styles from '../../styles/priceEntry/Header.module.css';
+import styles from "./Header.module.css";
 export default function Header({ title }) {
   return (
     <div className={styles.header}>

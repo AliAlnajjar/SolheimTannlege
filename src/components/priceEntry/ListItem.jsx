@@ -1,4 +1,4 @@
-import styles from '../../styles/priceEntry/ListItem.module.css';
+import styles from "./ListItem.module.css";
 export default function ListItem(list) {
   return (
     <div className={styles.item}>

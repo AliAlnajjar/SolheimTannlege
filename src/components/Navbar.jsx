@@ -1,8 +1,8 @@
-import styles from "../styles/Layout.module.css";
+import styles from "../styles/Layout.module.scss";
 import Link from "next/link";
 import MenuIcon from "@mui/icons-material/Menu";
 
-import CallButton from "./CallButton";
+import CallButton from "./CallToActionButton/CallButton";
 import { style } from "@mui/system";
 export default function Header() {
   return (
@@ -19,7 +19,7 @@ export default function Header() {
           <li>
             <Link href="/">
               <a>
-                <h1>Solheim tannklinikk</h1>
+                <h1>Solheim tannlegesenter</h1>
               </a>
             </Link>
           </li>
@@ -37,14 +37,15 @@ export default function Header() {
                 <a> Bestil time</a>
               </Link>
             </li>
-            {/* <li>
-            <Link href="#tjenester">
-              <a> Tjenester</a>
-            </Link>
-          </li> */}
+
             <li>
               <Link href="#priser">
                 <a> Priser</a>
+              </Link>
+            </li>
+            <li>
+              <Link href="#tjenester">
+                <a> Kampanjer</a>
               </Link>
             </li>
             <li>

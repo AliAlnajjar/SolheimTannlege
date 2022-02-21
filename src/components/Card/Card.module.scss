@@ -1,0 +1,48 @@
+.card {
+  display: flex;
+  // justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  // border: 1px solid #007272;
+  // background-color: #eef6f8;
+  border-bottom-left-radius: 2rem;
+  border-top-left-radius: 2rem;
+}
+.image {
+  display: grid;
+  grid-template-columns: repeat(18, 1fr);
+
+  .img {
+    grid-area: -1/1 / 1/14;
+    // clip-path: polygon(20% 0%, 85% 0%, 70% 100%, 5% 100%);
+    width: 40vw;
+  }
+}
+
+.text {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1rem;
+  line-height: 2rem;
+  padding: 1rem 4rem;
+  h1 {
+    border-bottom: 5px solid #007272;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .card {
+    display: flex;
+    flex-flow: column;
+  }
+  .image {
+    margin: auto;
+    .img {
+      grid-area: 1/1/ 1/-1;
+      clip-path: none;
+      width: 100%;
+      margin: auto;
+    }
+  }
+}

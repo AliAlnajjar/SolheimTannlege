@@ -1,11 +1,11 @@
-import styles from "../styles/Layout.module.css";
+import styles from "../styles/Layout.module.scss";
 import { Grid } from "@mui/material";
 export default function Footer() {
   return (
     <footer className={styles.footer}>
       <Grid container spacing={1} justifyContent="center" alignItems="start">
         <Grid item xs={12} md={5}>
-          <h1>Solheim tannklinikk</h1>
+          <h1>Solheim tannlegesenter</h1>
         </Grid>
         <Grid item xs={12} md={4}>
           <h4>Åpningstider:</h4>

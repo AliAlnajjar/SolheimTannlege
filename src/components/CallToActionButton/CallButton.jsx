@@ -1,10 +1,10 @@
-import styles from '../styles/Button.module.css';
-import Image from 'next/image';
+import styles from "./CallButton.module.css";
+import Image from "next/image";
 export default function CallButton() {
   return (
     <div className={styles.button}>
       <Image
-        src='/call_black_24dp.svg'
+        src="/call_black_24dp.svg"
         height={30}
         width={30}
         className={styles.image}

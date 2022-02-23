@@ -19,7 +19,7 @@ export default function Header() {
           <li>
             <Link href="/">
               <a>
-                <h1>Solheim tannlegesenter</h1>
+                <h1>Solheim tannlegevakt</h1>
               </a>
             </Link>
           </li>
@@ -43,11 +43,11 @@ export default function Header() {
                 <a> Priser</a>
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link href="#tjenester">
                 <a> Kampanjer</a>
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link href="#finn-oss">
                 <a> Finn oss</a>

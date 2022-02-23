@@ -3,3 +3,7 @@
   flex-direction: column;
   gap: 0.8rem;
 }
+.container {
+  width: 90%;
+  margin: auto;
+}

@@ -1,5 +1,5 @@
 import styles from "./Hero.module.scss";
-import Link from "next/Link";
+import Link from "next/link";
 export default function Hero() {
   return (
     <div className={styles.hero}>

@@ -3,7 +3,7 @@ import Hero from "../components/Hero/Hero";
 import ContactForm from "../components/ContactForm";
 import ContactChannels from "../components/ContactChannels/ContactChannels";
 import Grid from "@mui/material/Grid";
-import PriceEntry from "../components/PriceEntry/PriceEntry";
+import PriceEntry from "../components/PriceEntry/PriceEntry.jsx";
 import priceList from "../data/PriceEntries.json";
 import Priserstyles from "../styles/priser.module.css";
 import Bestilstyles from "../styles/ContactForm.module.css";

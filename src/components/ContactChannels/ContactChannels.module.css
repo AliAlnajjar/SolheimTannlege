@@ -6,9 +6,10 @@
 .container h1 {
   font-size: 2rem;
 }
-/* .grid {
+.grid {
   display: grid;
   grid-template-columns: max-content auto;
-  gap: 1rem;
+  gap: 0.25rem;
+  column-gap: 2rem;
   padding-left: 1rem;
-} */
+}

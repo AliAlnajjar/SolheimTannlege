@@ -17,11 +17,13 @@ export default function handler(req, res) {
     .send(msg)
     .then(() => {
       console.log('Email sent')
-      res.status(200).json({ name: 'John Doe' })
+      res.status(200).json({ res: 'Email has been sent' })
 
     })
     .catch((error) => {
       console.error(error)
+      res.status(404).json({ res: 'Error' })
+
     })
 
 

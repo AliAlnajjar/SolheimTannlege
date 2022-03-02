@@ -22,7 +22,7 @@ export default function handler(req, res) {
     })
     .catch((error) => {
       console.error(error)
-      res.status(404).json({ res: error })
+      res.status(404).json({ res: error, key: process.env.SENDGRID_API_KEY })
 
     })
 

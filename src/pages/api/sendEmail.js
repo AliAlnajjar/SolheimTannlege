@@ -22,7 +22,7 @@ export default function handler(req, res) {
     })
     .catch((error) => {
       console.error(error)
-      res.status(404).json({ res: 'Error' })
+      res.status(404).json({ res: error })
 
     })
 

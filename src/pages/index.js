@@ -34,7 +34,7 @@ export default function Home() {
         <Card
           title="Rotfylling"
           p="Dersom det er betennelse eller infeksjon i nerven i en tann, er det nødvendig med rotfylling.En rotfylling gjøres i tilfeller der nerven i tannen enten er så skadet at den er i ferd med å dø (irreversibel pulpitt), eller dersom den allerede har dødd (pulpanekrose). Oftest skjer dette på grunn av dype kariesangrep (hull), der bakteriene har fått nå så langt inn i tannen at nerven ikke lenger klarer påkjenningen den har blitt utsatt for over lang tid. En skadet eller død nerve kan også være forårsaket av en ulykke- f.eks. en fraktur som når inn til nerven, eller et kraftig slag mot tannen som forstyrrer blodsirkulasjonen til tannen. Hensikten med rotbehandling er å rense ut og fjerne bløtvevet (nerver/blodkar) inne i tannens rotkanal(er), for så å deretter fylle hulrommet med en rotfylling. På denne måten får man enten hindret bakteriene i å etablere seg her, eller fjernet bakteriene i en allerede infisert tann. Slik forebygges eller behandles utviklingen av apikal periodontitt- en bakterieinfeksjon i kjevebeinet rundt rotspissen på en tann. I sistnevnte tilfelle må behandlingen gjøres over minimum to besøk. Rotbehandling er en metode som gjør at tannen kan bevares framfor å måtte fjernes."
-          img="Rotfylling.jpeg"
+          img="rotfylling.jpeg"
         />
 
         <Card
